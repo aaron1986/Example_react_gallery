@@ -4,7 +4,18 @@ import Gallery from './Gallery.jsx'
 import Footer from './Footer.jsx'
 
 function App() {
-  const gallery = [
+
+  const gallery = [];
+
+for (let i = 1; i <= 6; i++) {
+  gallery.push({
+    title: `Vinyl Image${i}`,
+    imageUrl: `./src/img/images${i}.jpg`,
+    description: "random images of vinyl",
+  });
+}
+
+  /* const gallery = [
     {
     title: "Vinyl Image1",
     imageUrl: "./src/img/images1.jpg",
@@ -33,7 +44,7 @@ function App() {
     imageUrl: "./src/img/images6.jpg",
     Description: "random images of vinyl",
   }
-];
+]; */
 
 //Images Array
 const imageArray = [];
