@@ -4,6 +4,8 @@ import React, { useState, useEffect } from 'react';
 function App() {
   const [data, setData] = useState([]);
 
+  //useEffect hook fetches data from an API
+  //https://www.w3schools.com/react/react_useeffect.asp
   useEffect(() => {
     const apiUrl = 'src/data.json'; 
     fetch(apiUrl)
@@ -18,18 +20,22 @@ function App() {
 
   return (
     <div>
-      <h1>JSON Data</h1>
-      <ul>
+      <h1>Lab: Class 02</h1>
+      <section id="grid">
+        <div id="image-grid">
         {data.map((item) => (
-          <li key={item._id}>
+          <div key={item._id}>
             <img src={item.image_url} alt={item.title} />
             <h3>{item.title}</h3>
             <p>{item.description}</p>
             <p>Keyword: {item.keyword}</p>
             <p>Horns: {item.horns}</p>
-          </li>
+          </div>
         ))}
-      </ul>
+        </div>
+     
+      </section>
+   
     </div>
   );
 }
