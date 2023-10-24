@@ -5,11 +5,13 @@ function App() {
   const [data, setData] = useState([]);
 
   //To count images when clicked
-  const [clickCounts, setClickCounts]= useState(({}));
+  const [clickCounts, setClickCounts] = useState(({}));
 
   //useEffect hook fetches data from an API
   //https://www.w3schools.com/react/react_useeffect.asp
   useEffect(() => {
+
+    //I used fetch becuase I have used it in the past to pull data from a CSV file
     const apiUrl = 'src/data.json'; 
     fetch(apiUrl)
       .then((response) => response.json())
@@ -47,7 +49,7 @@ function App() {
             <p>{item.description}</p>
             <p>Keyword: {item.keyword}</p>
             <p>Horns: {item.horns}</p>
-            <p>Clicks: {clickCounts[item._id]}</p>
+            <p>Clicks: ❤️ {clickCounts[item._id]}</p>
           </div>
         ))}
         </div>
