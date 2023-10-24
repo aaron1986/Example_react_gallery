@@ -4,12 +4,8 @@ import React, { useState, useEffect } from 'react';
 function App() {
   const [data, setData] = useState([]);
 
-  //To use with likes images
+  //To count images when clicked
   const [clickCounts, setClickCounts]= useState(({}));
-
-   function handleLikes() {
-        setLikes(Likes + 1)
-    }
 
   //useEffect hook fetches data from an API
   //https://www.w3schools.com/react/react_useeffect.asp
@@ -18,7 +14,7 @@ function App() {
     fetch(apiUrl)
       .then((response) => response.json())
       .then((jsonData) => {
-        // Initialize the click counts for each image to 0
+        // set the images counts to zero
         const initialClickCounts = {};
         jsonData.forEach((item) => {
           initialClickCounts[item._id] = 0;
@@ -33,7 +29,6 @@ function App() {
 
 
   const handleImageClick = (itemId) => {
-    // Increment the click count for the clicked image
     setClickCounts((prevClickCounts) => ({
       ...prevClickCounts,
       [itemId]: prevClickCounts[itemId] + 1,
