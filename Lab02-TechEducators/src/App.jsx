@@ -4,6 +4,13 @@ import React, { useState, useEffect } from 'react';
 function App() {
   const [data, setData] = useState([]);
 
+  //To use with likes images
+  const [clickCounts, setClickCounts]= useState(({}));
+
+   function handleLikes() {
+        setLikes(Likes + 1)
+    }
+
   //useEffect hook fetches data from an API
   //https://www.w3schools.com/react/react_useeffect.asp
   useEffect(() => {
@@ -11,12 +18,27 @@ function App() {
     fetch(apiUrl)
       .then((response) => response.json())
       .then((jsonData) => {
+        // Initialize the click counts for each image to 0
+        const initialClickCounts = {};
+        jsonData.forEach((item) => {
+          initialClickCounts[item._id] = 0;
+        });
+        setClickCounts(initialClickCounts);
         setData(jsonData);
       })
       .catch((error) => {
         console.error('Error fetching data:', error);
       });
   }, []); 
+
+
+  const handleImageClick = (itemId) => {
+    // Increment the click count for the clicked image
+    setClickCounts((prevClickCounts) => ({
+      ...prevClickCounts,
+      [itemId]: prevClickCounts[itemId] + 1,
+    }));
+  };
 
   return (
     <div>
@@ -25,11 +47,12 @@ function App() {
         <div id="image-grid">
         {data.map((item) => (
           <div key={item._id}>
-            <img src={item.image_url} alt={item.title} />
+            <img src={item.image_url} alt={item.title} onClick={() => handleImageClick(item._id)} />
             <h3>{item.title}</h3>
             <p>{item.description}</p>
             <p>Keyword: {item.keyword}</p>
             <p>Horns: {item.horns}</p>
+            <p>Clicks: {clickCounts[item._id]}</p>
           </div>
         ))}
         </div>
