@@ -1,0 +1,156 @@
+[
+  {
+    "_id": 1,
+    "image_url": "/src/assets/img/image1.jpg",
+    "alt": "A boy in a South Madagascar villager",
+    "caption": "Ampanihy is one of the poorest parts of Madagascar",
+    "camera": "iPhone X back dual camera 4mm f/1.8"
+  },
+  {
+    "_id": 2,
+    "image_url": "/src/assets/img/image2.jpg",
+    "alt": "Sunset over the Serengeti",
+    "caption": "A breathtaking view of the Serengeti National Park at sunset",
+    "camera": "Nikon D850 24-70mm f/2.8"
+  },
+  {
+    "_id": 3,
+    "image_url": "/src/assets/img/image3.jpg",
+    "alt": "Venice Canals at Night",
+    "caption": "The romantic canals of Venice illuminated at night",
+    "camera": "Sony A7III 35mm f/1.4"
+  },
+  {
+    "_id": 4,
+    "image_url": "/src/assets/img/image4.jpg",
+    "alt": "A bustling market in Marrakech",
+    "caption": "Exploring the vibrant markets of Marrakech, Morocco",
+    "camera": "Canon EOS 5D Mark IV 50mm f/1.4"
+  },
+  {
+    "_id": 5,
+    "image_url": "/src/assets/img/image5.jpg",
+    "alt": "Golden Gate Bridge in San Francisco",
+    "caption": "The iconic Golden Gate Bridge against a clear blue sky",
+    "camera": "Nikon Z7 24-70mm f/2.8"
+  },
+  {
+    "_id": 6,
+    "image_url": "/src/assets/img/image6.jpg",
+    "alt": "A traditional tea ceremony in Japan",
+    "caption": "Witnessing a traditional Japanese tea ceremony",
+    "camera": "Fujifilm X-T4 23mm f/1.4"
+  },
+  {
+    "_id": 7,
+    "image_url": "/src/assets/img/image7.jpg",
+    "alt": "A mesmerizing view of the Grand Canyon",
+    "caption": "The stunning beauty of the Grand Canyon from the South Rim",
+    "camera": "Sony A7R IV 16-35mm f/2.8"
+  },
+  {
+    "_id": 8,
+    "image_url": "/src/assets/img/image8.jpg",
+    "alt": "Children playing on a beach in Bali",
+    "caption": "Local children enjoying a sunny day on a Bali beach",
+    "camera": "Canon EOS 6D Mark II 24-105mm f/4"
+  },
+  {
+    "_id": 9,
+    "image_url": "/src/assets/img/image9.jpg",
+    "alt": "Eiffel Tower in Paris",
+    "caption": "The iconic Eiffel Tower in the heart of Paris",
+    "camera": "Nikon D750 50mm f/1.8"
+  },
+  {
+    "_id": 10,
+    "image_url": "/src/assets/img/image10.jpg",
+    "alt": "Machu Picchu in the morning mist",
+    "caption": "The ancient Inca citadel of Machu Picchu emerging from the mist",
+    "camera": "Canon EOS 5D Mark IV 24-70mm f/2.8"
+  },
+  {
+    "_id": 11,
+    "image_url": "/src/assets/img/image11.jpg",
+    "alt": "A traditional street market in India",
+    "caption": "Exploring the vibrant and colorful street markets of India",
+    "camera": "Sony A7III 35mm f/1.4"
+  },
+  {
+    "_id": 12,
+    "image_url": "/src/assets/img/image12.jpg",
+    "alt": "Aerial view of New York City",
+    "caption": "A stunning aerial view of the skyscrapers of New York City",
+    "camera": "DJI Mavic 2 Pro"
+  },
+  {
+    "_id": 13,
+    "image_url": "/src/assets/img/image13.jpg",
+    "alt": "Beautiful cherry blossoms in Kyoto",
+    "caption": "Cherry blossoms in full bloom in Kyoto, Japan",
+    "camera": "Fujifilm X-T4 50mm f/2"
+  },
+  {
+    "_id": 14,
+    "image_url": "/src/assets/img/image14.jpg",
+    "alt": "Wildlife in the African savanna",
+    "caption": "African wildlife in its natural habitat on a safari",
+    "camera": "Nikon D850 200-500mm f/5.6"
+  },
+  {
+    "_id": 15,
+    "image_url": "/src/assets/img/image15.jpg",
+    "alt": "A serene mountain lake in Switzerland",
+    "caption": "A tranquil alpine lake nestled in the Swiss Alps",
+    "camera": "Canon EOS 5D Mark IV 24-70mm f/2.8"
+  },
+  {
+    "_id": 16,
+    "image_url": "/src/assets/img/image16.jpg",
+    "alt": "Starry night in the desert",
+    "caption": "A clear, starry night in the desert, away from city lights",
+    "camera": "Sony A7R IV 20mm f/1.8"
+  },
+  {
+    "_id": 17,
+    "image_url": "/src/assets/img/image17.jpg",
+    "alt": "Colorful hot air balloons in Cappadocia",
+    "caption": "Hot air balloons soaring over the unique landscapes of Cappadocia, Turkey",
+    "camera": "Nikon Z6 24-70mm f/2.8"
+  },
+  {
+    "_id": 18,
+    "image_url": "/src/assets/img/image18.jpg",
+    "alt": "Tropical paradise in the Maldives",
+    "caption": "Crystal-clear waters and palm trees in the Maldives",
+    "camera": "Canon EOS 5D Mark IV 16-35mm f/2.8"
+  },
+  {
+    "_id": 19,
+    "image_url": "/src/assets/img/image19.jpg",
+    "alt": "A picturesque village in the Swiss Alps",
+    "caption": "A charming village nestled in the Swiss Alps",
+    "camera": "Sony A7III 35mm f/1.4"
+  },
+  {
+    "_id": 20,
+    "image_url": "/src/assets/img/image20.jpg",
+    "alt": "Hiking in Patagonia",
+    "caption": "Adventurous hiking in the breathtaking landscapes of Patagonia",
+    "camera": "Nikon D850 14-24mm f/2.8"
+  },
+  {
+    "_id": 21,
+    "image_url": "/src/assets/img/image21.jpg",
+    "alt": "Traditional Chinese lantern festival",
+    "caption": "Vibrant Chinese lanterns lighting up the night sky",
+    "camera": "Fujifilm X-T4 35mm f/1.4"
+  },
+  {
+    "_id": 22,
+    "image_url": "/src/assets/img/image22.jpg",
+    "alt": "Antelope Canyon, Arizona",
+    "caption": "The stunning natural formations of Antelope Canyon in Arizona",
+    "camera": "Canon EOS 6D Mark II 24-105mm f/4"
+  }
+]
